@@ -1,0 +1,27 @@
+div {
+    width: 500px;
+    height: 200px;
+    background-color: greenyellow;
+    display: flex;
+    border-radius: 20px;
+}
+
+.dos {
+    background-color: aquamarine;
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    content: center;
+}
+
+.tres {
+    background-color: rgb(85, 116, 105);
+    width: 300px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+

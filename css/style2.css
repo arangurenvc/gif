@@ -1,0 +1,114 @@
+/* Cuadro uno */
+.uno {
+    background-color: coral;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.uno :first-child {
+    height: 30px;
+    width: 45px;
+    background-color: rgb(255, 181, 230);
+    display: flex;
+    position: relative;
+    top: -55px;
+    border-radius: 5px;
+}
+
+.uno :nth-child(2) {
+    height: 30px;
+    width: 45px;
+    background-color: rgb(142, 207, 250);
+    display: flex;
+    border-radius: 5px;
+}
+
+.uno :last-child {
+    height: 30px;
+    width: 45px;
+    background-color: rgb(184, 23, 130);
+    display: flex;
+    position: relative;
+    top: 55px;
+    border-radius: 5px;
+
+}
+
+/* Cuadro dos */
+.dos {
+    background-color: cornflowerblue;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.dos :first-child {
+    height: 30px;
+    width: 45px;
+    background-color: rgb(255, 181, 230);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.dos :nth-child(2) {
+    height: 30px;
+    width: 150px;
+    background-color: rgb(142, 207, 250);
+    display: flex;
+    border-radius: 5px;
+}
+
+.dos :last-child {
+    height: 30px;
+    width: 45px;
+    background-color: rgb(184, 23, 130);
+    display: flex;
+    align-items: flex-end;
+    border-radius: 5px;
+ 
+}
+
+/* Cuadro tres*/
+.tres {
+    background-color: darkseagreen;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+    border-radius: 5px;
+}
+
+.tres :first-child {
+    height: 30px;
+    width: 45px;
+    background-color: rgb(255, 181, 230);
+    border-radius: 5px;   
+}
+
+.tres :nth-child(2) {
+    height: 30px;
+    width: 45px;
+    background-color: rgb(142, 207, 250);
+    border-radius: 5px;
+}
+
+.tres :last-child {
+    height: 30px;
+    width: 45px;
+    background-color: rgb(184, 23, 130);
+    border-radius: 5px;  
+}
